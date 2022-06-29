@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root{
+    --bg-blue: #047aed;
+}
+body{
+    /* font-family: 'Lato', sans-serif; */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar */
+ul {
+    list-style-type: none;
+}
+
+.navbar{
+    background-color: var(--bg-blue);
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+/* Showcase */
+.showcase{
+    background-color: var(--bg-blue);;
+}
+
+.showcase {
+    position: relative;
+}
+.showcase-text{
+    animation: slideInFromLeft 1s ease;
+}
+
+.showcase-img{
+    animation: slideInFromRight 1s ease;
+}
+
+/* Animations */
+@keyframes slideInFromLeft {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromTop {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottom {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@media (min-width: 768px){
+    .search-input{
+        width: 50%;
+    }
+}
+
+
+/* Categories */
+
+.categories .card {
+    display: flex;
+    align-items: center;
+    margin: 18px 10px 40px;
+    text-align: center;
+    transition: transform 0.2s ease-in;
+}
+
+.categories .card-img {
+    width: 70px;
+    height: 70px;
+}
+
+.categories .card h5{
+    /* font-size: 20px; */
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+/* .categories h2{
+    border-bottom: 2px var(--bg-blue) solid;
+} */
+
+.categories .card:hover {
+    transform: translateY(-15px);
+}
+
+/* About */
+.about {
+    background-color: #333;
+}
+
+/* Footer */
+footer a {
+    text-decoration: none;
+}
+
+footer .social a {
+    margin: 0 10px;
+}
+
+/* Utilities */
+.card {
+    background-color: white;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.line {
+    text-align: center;
+    margin-bottom: 10px;
+    /* position: relative; */
+    top: 50%;
+    margin: 1rem auto 1.5rem auto;
+    width: 10%;
+    height: 2px;
+    background: var(--bg-blue);
+}
+
+.logo a {
+    text-transform: uppercase;
+    text-decoration: none;
+}

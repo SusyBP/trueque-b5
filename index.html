@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trueque B5</title>
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <h1 class="navbar-brand logo" ><a href="#" >trueque</a></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link"><span class="fa fa-search"></span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Entrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Registrarse</a>
+                    </li>                 
+                </ul>                
+            </div>   
+    </nav>
+
+    <!-- Showcase -->
+            <section class="showcase bg-dark">
+                <div class="container text-center text-sm-start text-light py-5">
+                    <div class="d-sm-flex justify-content-between align-items-center">
+                        <div class="showcase-text">
+                            <h1>Bienvenido a <spam class="text-warning">Trueque</spam></h1>
+                            <p class="lead my-4">¿Posee bienes en desuso que desearía intercambiar por otros más acordes con su necesidad?</p>
+                            <p>Pues ha llegado al lugar correcto!</p>
+                            <button href="#" class="btn btn-primary btn-lg">Crear una cuenta</a>
+                        </div>
+                        <img class="image-fluid w-50 d-none d-sm-block showcase-img" src="/images/undraw_login_re_4vu2.svg" alt="Trueques">
+                    </div>
+            </section>
+            
+    <!-- Searching -->
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">Buscar trueques por palabra</h3>
+            <div class="input-group search-input">
+                <input type="text" class="form-control" placeholder="Por ejemplo: arroz, café, celular, etc...">
+                <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Buscar</button>
+              </div>
+        </div>
+      </div>       
+    </section>
+
+   
+    <!-- section -->
+    <!-- <section class="bg-primary p-5">
+        <div class="container-fluid">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>        
+    </section> -->
+
+    <!-- About -->
+    <div class="about p-5 bg-white">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-md">
+                    <img src="/images/undraw_sharing_articles_re_jnkp.svg" class="img-fluid w-70 d-none d-sm-block" alt="intercambiar">
+                </div>
+                <div class="col-md p-5">
+                    <h2>¿Qué es un trueque?</h2>
+                    <p class="lead">Un <span class="text-primary">trueque</span> es una propuesta de intercambio creada por un ususario de la plataforma. Esta puede ser completa o parcial, es decir, el usuario puede especificar qué busca y qué propone a cambio, indistintamente.</p>
+                    <p class="lead"> Estos trueques son descubiertos por otros usuarios, quienes pueden solicitar su completitud enviando propuestas que complementen el intercambio</p>
+                    <!-- <p class="lead">Este sitio sirve como pasarela para la gestión y registro de sus trueques. Les permite a los ususarios en ultima instancia, intercambiar la información personal provista para cumplimetar su intercambio de manera presencial.</p> -->
+                    <a href="#" class="btn btn-primary mt-3"><span class="bi bi-chevron-right">Leer más</span></a>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories -->
+    <section class="categories pb-5 bg-light">
+        <h2 class="md my-2 pt-4 text-center">Categorías</h2>
+        <div class="line"></div>
+        <div class="container d-flex flex-wrap justify-content-between">
+            <div class="card" data-bs-placement="top" data-bs-toggle="tooltip" title="Artículos del hogar">
+                <!-- <h5>Hogar</h5> -->
+                <img class="card-img" src="/images/handcraft/undraw_handcrafts_house.svg" alt="Artículos del hogar">
+            </div>
+            <div class="card" data-bs-placement="top" data-bs-toggle="tooltip" title="Alimentos">
+                    <!-- <h5>Alimentos</h5> -->
+                    <img class="card-img" src="/images/handcraft/undraw_handcrafts_birthday_cake.svg" alt="Alimentos">
+            </div>
+            <div class="card" data-bs-placement="top" data-bs-toggle="tooltip" title="Celulares">
+                    <!-- <h5>Celulares</h5> -->
+                    <img class="card-img" src="/images/handcraft/undraw_handcrafts_smartphone.svg" alt="Celulares">
+            </div>
+            <div class="card" data-bs-placement=top data-bs-toggle="tooltip" title="Decoración">
+                    <!-- <h5>Medicinas</h5> -->
+                    <img class="card-img" src="/images/handcraft/undraw_handcrafts_plants.svg" alt="Decoración">
+            </div>
+            <div class="card" data-bs-placement=" top" data-bs-toggle="tooltip" title="Regalos"">
+                    <!-- <h5>Regalos</h5> -->
+                    <img class="card-img" src="/images/handcraft/undraw_handcrafts_present.svg" alt="Regalos">
+            </div>
+            <div class="card" data-bs-placement=" top" data-bs-toggle="tooltip" title="Electrodomésticos"">
+                    <!-- <h5>Electrodomésticos</h5> -->
+                    <img class="card-img" src="/images/handcraft/undraw_handcrafts_computer.svg" alt="Electrodomésticos">
+            </div>
+            <div class="card" data-bs-placement=" top" data-bs-toggle="tooltip" title="Ropa"">
+                    <!-- <h5>Ropa</h5> -->
+                    <img class="card-img" src="/images/handcraft/undraw_handcrafts_woman.svg" alt="Ropa">
+            </div>
+            <div class="card" data-bs-placement=" top" data-bs-toggle="tooltip" title="Especias y medicinas"">
+                <!-- <h5>Ropa</h5> -->
+                <img class=" card-img" src="/images/handcraft/undraw_handcrafts_leaf.svg" alt="Especias y medicinas">
+        </div>
+        </div>
+    </section>
+
+
+    <!-- FQAs -->
+    <section id="questions" class="p-5 bg-dark">
+        <div class="container">
+            <div class="card">
+            <h2 class="text-center my-2 pt-4 ">Peguntas frecuentes</h2>
+            <div class="line"></div>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- item 1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-one" aria-expanded="false">
+                            ¿Cómo crear un trueque?
+                        </button>
+                    </h2>
+                    <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem modi molestiae explicabo ratione ad blanditiis, officia eligendi repudiandae quae impedit nisi voluptate corrupti obcaecati quidem amet quis ipsum, quod ipsa</div>
+                    </div>
+                </div>
+                <!-- item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-two" aria-expanded="false">
+                            ¿Cómo sé cuando mi propuesta de trueque fue aceptada?
+                        </button>
+                    </h2>
+                    <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis sed quae quidem aliquid rerum maiores velit sint, qui quasi porro, consequuntur sunt, ab ex architecto accusantium. Quia eius cumque ipsa.</div>
+                    </div>
+                </div>
+                <!-- item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#question-three" aria-expanded="false">
+                            ¿Cómo accedo a la información de contacto de la otra persona?
+                        </button>
+                    </h2>
+                    <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#questions">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, animi quaerat voluptate doloremque numquam officiis quo minus iste officia vel ex obcaecati facere totam ea deleniti fugit at. Nobis, ut.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-5">
+        <div class="container">
+            <div class="grid grid-3">
+            <div>
+                <h1>Trueque</h1>
+                <p>Copy &copy; 2022</p>
+            </div>
+            <nav class="">
+                <ul>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="#">Privacidad</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQs</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="/lib/bootstrap/js/bootstrap.bundle.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        </script>
+</body>
+</html>
