@@ -2,6 +2,7 @@
 
 :root{
     --bg-blue: #047aed;
+    text-align: center;
 }
 body{
     /* font-family: 'Lato', sans-serif; */
@@ -78,6 +79,20 @@ nav ul {
     .search-input{
         width: 50%;
     }
+
+    .questions .accordion-body {
+        text-align: start;
+    }
+
+    .links {
+        text-align: start;
+    }   
+}
+
+
+/* Searching */
+.searching h3{
+    text-align: left;
 }
 
 
@@ -114,10 +129,18 @@ nav ul {
 .about {
     background-color: #333;
 }
-
+.about h2 {
+    text-transform: uppercase;
+} 
 /* FAQs */
 
+.questions h2 {
+    text-transform: uppercase;
+}
 
+.categories h2 {
+    text-transform: uppercase;
+}
 
 /* Footer */
 footer a {
@@ -128,6 +151,18 @@ footer .social a {
     margin: 0 10px;
 }
 
+@media (max-width: 576px) {
+
+    .search-extra-text{
+        display: none;
+    }
+
+
+}
+@media (min-width: 576px) {
+
+   
+}
 @media (max-width: 768px) {
 
     footer .d-flex {
@@ -136,14 +171,15 @@ footer .social a {
         align-items: center;
     }
 
-    .copyright{
+    /* .copyright{
         text-align: center;
-    }
+    } */
 
     footer ul{
-        text-align: center;
+        /* text-align: center; */
         padding-left: 0;
     }
+
 }
 
 @media (min-width: 768px) {
@@ -182,11 +218,11 @@ footer .social a {
     text-align: center;
     margin-bottom: 10px;
     /* position: relative; */
-    top: 50%;
+    top: 1rem;
     margin: 1rem auto 1.5rem auto;
-    width: 10%;
-    height: 2px;
-    background: var(--bg-blue);
+    width: 3rem;
+    height: 0.2rem;
+    /* background: var(--bg-blue); */
 }
 
 .logo a {

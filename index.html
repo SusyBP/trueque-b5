@@ -35,7 +35,7 @@
 
     <!-- Showcase -->
             <section class="showcase bg-dark">
-                <div class="container text-center text-sm-start text-light py-5">
+                <div class="container text-sm-start text-light p-5 py-sm-5 px-sm-3">
                     <div class="d-sm-flex justify-content-between align-items-center">
                         <div class="showcase-text">
                             <h1>Bienvenido a <spam class="text-warning">Trueque</spam></h1>
@@ -48,35 +48,29 @@
             </section>
             
     <!-- Searching -->
-    <section class="bg-primary text-light p-5">
+    <section class="searching bg-primary text-light p-5">
       <div class="container">
         <div class="d-md-flex justify-content-between align-items-center">
-            <h3 class="mb-3 mb-md-0">Buscar trueques por palabra</h3>
+            <h3 class="mb-3 mb-md-0">Buscar trueques <span class="search-extra-text">por palabra clave</span></h3>
             <div class="input-group search-input">
-                <input type="text" class="form-control" placeholder="arroz, café, celular, etc...">
+                <input type="text" class="form-control" placeholder="arroz, café, celular...">
                 <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Buscar</button>
               </div>
         </div>
       </div>       
     </section>
 
-   
-    <!-- section -->
-    <!-- <section class="bg-primary p-5">
-        <div class="container-fluid">
-            <p>Lorem ipsum dolor sit amet.</p>
-        </div>        
-    </section> -->
 
     <!-- About -->
-    <div class="about p-5 bg-white">
+    <div class="about p-5 bg-light text-md-start">
         <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md">
-                    <img src="/images/undraw_sharing_articles_re_jnkp.svg" class="img-fluid w-70 d-none d-sm-block" alt="intercambiar">
+            <div class="d-sm-flex justify-content-center align-items-center">
+                <div class="col-md mb-sm-5">
+                    <img src="/images/undraw_sharing_articles_re_jnkp.svg" class="img-fluid w-70 d-none d-md-block" alt="intercambiar">
                 </div>
-                <div class="col-md p-md-5">
+                <div class="col-md p-md-5 pe-md-1">
                     <h2>¿Qué es un trueque?</h2>
+                    <div class="line"></div>
                     <p class="lead">Un <span class="text-primary">trueque</span> es una propuesta de intercambio creada por un ususario de la plataforma. Esta puede ser completa o parcial, es decir, el usuario puede especificar qué busca y qué propone a cambio, indistintamente.</p>
                     <p class="lead"> Estos trueques son descubiertos por otros usuarios, quienes pueden solicitar su completitud enviando propuestas que complementen el intercambio</p>
                     <!-- <p class="lead">Este sitio sirve como pasarela para la gestión y registro de sus trueques. Les permite a los ususarios en ultima instancia, intercambiar la información personal provista para cumplimetar su intercambio de manera presencial.</p> -->
@@ -87,8 +81,8 @@
     </div>
 
     <!-- Categories -->
-    <section class="categories pb-5 bg-light">
-        <h2 class="md my-2 pt-4 text-center">Categorías</h2>
+    <section class="categories pb-5 bg-white">
+        <h2 class="md my-2 pt-4">Categorías</h2>
         <div class="line"></div>
         <div class="container d-flex flex-wrap justify-content-around">
             <div class="card" data-bs-placement="top" data-bs-toggle="tooltip" title="Artículos del hogar">
@@ -169,10 +163,10 @@
 
 
     <!-- FQAs -->
-    <section id="questions" class="py-5 bg-dark">
+    <section class="questions py-5 bg-dark">
         <div class="container">
             <div class="card">
-            <h2 class="text-center my-2 pt-4 ">Peguntas frecuentes</h2>
+            <h2 class="my-2 pt-4 ">Peguntas frecuentes</h2>
             <div class="line"></div>
             <div class="accordion accordion-flush" id="questions">
                    <!-- item 1 -->
@@ -220,11 +214,11 @@
     <footer class="footer bg-dark text-light py-md-5">
         <div class="container">
             <div class="d-flex">
-            <div class="copyright">
+            <div class="copyright text-md-start">
                 <h1>Trueque</h1>
                 <p>Copyright &copy; 2022</p>
             </div>
-            <div class="d-flex justify-content-center align-items-center my-3">
+            <div class="links d-flex justify-content-center align-items-center my-3">
             <nav>
                 <ul>
                     <li>
