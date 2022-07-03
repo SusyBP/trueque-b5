@@ -23,6 +23,7 @@ nav ul {
     border-bottom: 2px #fff solid;
 }
 
+/* Landingpage */
 /* Showcase */
 .showcase{
     background-color: var(--bg-blue);;
@@ -156,12 +157,6 @@ footer .social a {
     .search-extra-text{
         display: none;
     }
-
-
-}
-@media (min-width: 576px) {
-
-   
 }
 @media (max-width: 768px) {
 
@@ -171,12 +166,7 @@ footer .social a {
         align-items: center;
     }
 
-    /* .copyright{
-        text-align: center;
-    } */
-
     footer ul{
-        /* text-align: center; */
         padding-left: 0;
     }
 
@@ -187,8 +177,7 @@ footer .social a {
         justify-content: space-between;
         align-items: center;
     }
-}
-    
+}    
 
 /* Utilities */
 .card {
@@ -229,3 +218,5 @@ footer .social a {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+/* Login */
