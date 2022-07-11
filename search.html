@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main role="main" class="app-content px-5" style="padding: calc(1rem*7); ">
+        <div class="container">
+            <!--revisar si se puede quitar-->
+            <div class="line-length-sm">
+                <article class="card py-5">
+                    <h2 class="text-center">Buscar Trueques</h2>
+                    <div class="filters d-flex flex-column flex-md-row justify-content-center align-items-center">
+                        <p class="lead m-3">Filtrar por Propone/Busca:</p>
+
+                        <input type="text" class="form-control" name="filter" id="filter" aria-describedby="helpId">
+                        <!-- <div class="btn-box d-flex flex-column flex-sm-row"> -->
+                           
+                                <button id="search-btn" class="btn btn-primary m-3" style="justify-self: end;"><i class="fa fa-search"></i></button>
+                                <button id="reset-btn" class="btn btn-primary m-3" style="justify-self: end;"><i class="fa-solid fa-arrows-rotate"></i></button>
+                        <!-- </div> -->
+                    </div>
+                    <div class="table-responsive">
+                        <table class="table caption-top">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th scope="col">Tipo</th>
+                                    <th scope="col">Propone</th>
+                                    <th scope="col">Busca</th>
+                                    <th scope="col">Fecha</th>
+                                    <th scope="col">Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><i class="fa-solid fa-arrow-left"></i></td>
+                                    <td>algo 2</td>
+                                    <td>algo 3</td>
+                                    <td>algo 4</td>
+                                    <th scope="col">
+                                        <div class="opciones">
+                                            <button class="btn btn-light details-btn">Detalles</button>
+                                            <button class="btn btn-success request-btn">Solicitar</button>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa-solid fa-arrow-right"></i></td>
+                                    <td>algo 2</td>
+                                    <td>algo 3</td>
+                                    <td>algo 4</td>
+                                    <th scope="col">
+                                        <div class="opciones">
+                                            <button class="btn btn-light details-btn" >Detalles</button>
+                                            <button class="btn btn-success request-btn">Solicitar</button>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa-solid fa-arrows-left-right"></i></td>
+                                    <td>algo 2</td>
+                                    <td>algo 3</td>
+                                    <td>algo 4</td>
+                                    <th scope="col">
+                                        <div class="opciones">
+                                            <button class="btn btn-light details-btn">Detalles</button>
+                                            <button class="btn btn-success request-btn">Solicitar</button>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td><i class="fa-solid fa-arrows-left-right"></i></td>
+                                    <td>algo 2</td>
+                                    <td>algo 3</td>
+                                    <td>algo 4</td>
+                                    <th scope="col">
+                                        <div class="opciones">
+                                            <button class="btn btn-light details-btn">Detalles</button>
+                                            <button class="btn btn-success request-btn">Solicitar</button>
+                                        </div>
+                                    </th>
+                                </tr>
+                               <!-- Pagination -->
+                               <nav aria-label="Page navigation example">
+                                <ul class="pagination justify-content-center">
+                                  <li class="page-item">
+                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
+                                  </li>
+                                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                  <li class="page-item">
+                                    <a class="page-link" href="#">Siguiente</a>
+                                  </li>
+                                </ul>
+                              </nav>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
