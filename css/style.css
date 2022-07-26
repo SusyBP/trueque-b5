@@ -235,6 +235,14 @@ a:hover{
 /* Login */
 
 /* Search */
+.details-btn{
+    margin-bottom: 0.5rem !important;
+    align-self: flex-end;
+}
+
+.request-btn{
+    margin-bottom: 0.5rem !important;
+}
 @media (max-width: 768px) {
     
 #search-btn {
@@ -247,18 +255,13 @@ a:hover{
     margin-top: 0.5rem !important;
 }
 
-.details-btn{
-    margin-bottom: 0.5rem !important;
+
+
 }
 
-.request-btn{
-    margin-top: 0.5remm !important;
-}
-}
-
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     
     #reset-btn{
         margin-left: 1rem !important;
     }
-}
+} */

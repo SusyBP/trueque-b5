@@ -25,7 +25,7 @@
        }
 
     </style>
-    <main role="main" class="app-content px-5" style="padding: calc(1rem*7); ">
+    <main role="main" class="app-content px-3" style="padding: calc(1rem*7); ">
         <div class="container">
             <!--revisar si se puede quitar-->
             <div class="line-length-sm">
@@ -35,10 +35,9 @@
                         <p class="lead m-3">Filtrar por Propone/Busca:</p>
 
                         <input type="text" class="form-control" name="filter" id="filter" aria-describedby="helpId">
-                        <!-- <div class="btn-box d-flex flex-column flex-sm-row"> -->
-                           
-                                <button id="search-btn" class="btn btn-primary m-3" style="justify-self: end;"><i class="fa fa-search"></i></button>
-                                <button id="reset-btn" class="btn btn-primary m-3" style="justify-self: end;"><i class="fa-solid fa-arrows-rotate"></i></button>
+                        <!-- <div class="btn-box d-flex flex-column flex-sm-row"> -->                           
+                                <button id="search-btn" class="btn btn-primary my-3 mx-2"><i class="fa fa-search"></i></button>
+                                <button id="reset-btn" class="btn btn-primary my-3"><i class="fa-solid fa-arrows-rotate"></i></button>
                         <!-- </div> -->
                     </div>
                     <div class="table-responsive">
@@ -55,66 +54,58 @@
                             <tbody>
                                 <tr>
                                     <td><i class="fa-solid fa-arrow-right-arrow-left"></i></td>
-                                    <td>algo 2</td>
-                                    <td>algo 3</td>
-                                    <td>algo 4</td>
+                                    <td>2 lt de aceite</td>
+                                    <td>1 kg de leche amarilla</td>
+                                    <td>25/05/2022</td>
                                     <th scope="col">
                                         <div class="opciones">
-                                            <button class="btn btn-secondary details-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Detalles</button>
-                                            <button class="btn btn-success request-btn">Solicitar</button>
+                                            <button class="btn btn-secondary details-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="top" data-bs-toggle="tooltip" title="Ver detalles"><i class="fa fa-eye"></i></button>
+                                            <button class="btn btn-success request-btn" data-bs-target="#exampleModal" data-bs-placement="top" data-bs-toggle="tooltip" title="Solicitar"><i class="fa fa-comment"></i></button>
                                         </div>
                                     </th>
                                 </tr>
                                 <tr>
                                     <td><i class="fa-solid fa-arrow-right"></i></td>
-                                    <td>algo 2</td>
-                                    <td>algo 3</td>
-                                    <td>algo 4</td>
+                                    <td>Paquete de culeros tercera etapa</td>
+                                    <td><i class="fa-solid fa-times"></i></td>
+                                    <td>25/06/2022</td>
                                     <th scope="col">
                                         <div class="opciones">
-                                            <button class="btn btn-secondary details-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Detalles</button>
-                                            <button class="btn btn-success request-btn">Solicitar</button>
+                                            <button class="btn btn-secondary details-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="top" data-bs-toggle="tooltip" title="Ver detalles"><i class="fa fa-eye"></i></button>
+                                            <button class="btn btn-success request-btn" data-bs-target="#exampleModal" data-bs-placement="top" data-bs-toggle="tooltip" title="Solicitar"><i class="fa fa-comment"></i></button>
                                         </div>
                                     </th>
                                 </tr>
                                 <tr>
                                     <td><i class="fa-solid fa-arrow-right-arrow-left"></i></td>
-                                    <td>algo 2</td>
-                                    <td>algo 3</td>
-                                    <td>algo 4</td>
+                                    <td>Un carton de huevos</td>
+                                    <td>4 libras de pollo</td>
+                                    <td>27/06/2022</td> 
                                     <th scope="col">
                                         <div class="opciones">
-                                            <button class="btn btn-secondary details-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Detalles</button>
-                                            <button class="btn btn-success request-btn">Solicitar</button>
+                                            <button class="btn btn-secondary details-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="top" data-bs-toggle="tooltip" title="Ver detalles"><i class="fa fa-eye"></i></button>
+                                            <button class="btn btn-success request-btn" data-bs-target="#exampleModal" data-bs-placement="top" data-bs-toggle="tooltip" title="Solicitar"><i class="fa fa-comment"></i></button>
                                         </div>
                                     </th>
                                 </tr>
                                 <tr>
                                     <td><i class="fa-solid fa-arrow-left"></i></td>
-                                    <td>algo 2</td>
-                                    <td>algo 3</td>
-                                    <td>algo 4</td>
+                                    <td><i class="fa-solid fa-times"></i></td>
+                                    <td>Motor de ventilador</td>
+                                    <td>30/06/2022</td>
                                     <th scope="col">
                                         <div class="opciones">
-                                            <button class="btn btn-secondary details-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Detalles</button>
-                                            <button class="btn btn-success request-btn">Solicitar</button>
+                                            <button class="btn btn-secondary details-btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-placement="top" data-bs-toggle="tooltip" title="Ver detalles"><i class="fa fa-eye"></i></button>
+                                            <button class="btn btn-success request-btn" data-bs-target="#exampleModal" data-bs-placement="top" data-bs-toggle="tooltip" title="Solicitar"><i class="fa fa-comment"></i></button>
                                         </div>
                                     </th>
                                 </tr>
                                <!-- Pagination -->
-                               <nav aria-label="Page navigation example">
-                                <ul class="pagination justify-content-center">
-                                  <li class="page-item">
-                                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Anterior</a>
-                                  </li>
-                                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                  <li class="page-item">
-                                    <a class="page-link" href="#">Siguiente</a>
-                                  </li>
-                                </ul>
-                              </nav>
+                               <div class="d-flex justify-content-center align-items-center m-4">
+                                <a class="btn"><i class="fa fa-chevron-left"></i></a>
+                                <h2 class="lead">Página 1 de 5</h2>
+                                <a class="btn"><i class="fa fa-chevron-right"></i></a>
+                               </div>
                             </tbody>
                         </table>
                     </div>
@@ -159,7 +150,7 @@
             </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
           <button type="button" class="btn btn-primary">Aceptar</button>
         </div>
       </div>
